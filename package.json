@@ -1,0 +1,30 @@
+{
+  "name": "react-zsk-layout",
+  "version": "1.12.0",
+  "description": "A flexible and customizable layout component for React applications, built with styled-components and TypeScript, supporting various padding, alignment, and spacing options.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rm -rf dist/ && rollup -c --bundleConfigAsCjs"
+  },
+  "author": "sk_izsk",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "rollup": "^4.27.2",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3"
+  }
+}
